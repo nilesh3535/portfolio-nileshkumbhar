@@ -619,7 +619,13 @@ export default function App() {
             </div>
             <div className="social-links">
               <p className="social-title">Find me on</p>
-              {[{ icon: "🔗", label: "LinkedIn", href: "#" }].map((s) => (
+              {[
+                {
+                  icon: "🔗",
+                  label: "LinkedIn",
+                  href: "https://www.linkedin.com/in/nileshkumbhar1997",
+                },
+              ].map((s) => (
                 <a key={s.label} href={s.href} className="social-btn glass">
                   <span>{s.icon}</span> {s.label}
                 </a>
