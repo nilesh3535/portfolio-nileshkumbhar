@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
+import MyPhoto from "../assets/nk.png";
 
 const NAV_LINKS = [
   "Home",
@@ -375,11 +376,7 @@ export default function App() {
             <div className="avatar-ring" />
             <div className="avatar-ring avatar-ring--2" />
             <div className="avatar-img-wrap">
-              <img
-                src="https://s.gravatar.com/avatar/b6c07acf6cad04a7b77308acc3bc5c1e?s=480&r=pg&d=https%3A%2F%2Fstorage.googleapis.com%2Fexpo-website-default-avatars%2Fn-2x.png"
-                alt="Nilesh Kumbhar"
-                className="avatar-img"
-              />
+              <img src={MyPhoto} alt="Nilesh Kumbhar" className="avatar-img" />
             </div>
             <div className="avatar-badge">💻 React Native Dev</div>
           </div>
