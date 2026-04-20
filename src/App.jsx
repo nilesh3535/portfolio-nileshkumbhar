@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
-import MyPhoto from "../assets/nk.png";
+import MyPhoto from "./assets/nk.png";
 
 const NAV_LINKS = [
   "Home",
